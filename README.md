@@ -1,7 +1,9 @@
 # shin-devig
 
 De-vig sportsbook odds into fair probabilities using four methods, including
-the Shin (1992) insider-trading model. Pure Python, zero dependencies.
+the Shin (1992) insider-trading model. Pure Python, zero dependencies. The Shin-devigged NBA closing line used in CourtVision's EVIDENCE.md section A (Brier 0.1666 on 372 scored games, recomputed 2026-09-24) was produced with this method.
+
+Distilled from CourtVision, a four-sport forecasting system audited in public; the measured results and the retraction record are in its evidence index: https://github.com/neeljshah/court-vision/blob/master/EVIDENCE.md
 
 This is a probability-measurement library, not a betting tool. It answers
 "what does the market actually think the true probability is, once the
